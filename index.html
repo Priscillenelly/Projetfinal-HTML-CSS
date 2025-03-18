@@ -24,7 +24,7 @@
             <li><a href="#">Développeurs <i class="bi bi-chevron-down"></i></a></li>
             <li><a href="#">Tarifs</a></li>
             <li><a href="#">Ressources <i class="bi bi-chevron-down"></i></a></li>
-            <li><a href="#">Se connecter</a></li>
+            <li><a href="index2.html">Se connecter</a></li>
           </ul>
         </nav>
         <div class="bouton">
@@ -35,7 +35,7 @@
   
     <!-- Première section -->
     <section class="1erepage">
-      <section class="page">
+      <section class="page" data-aos="fade-up">
         <div class="hero-content">
           <div class="bbt">
             <a href="#" class="link">
@@ -59,7 +59,7 @@
           </div>
           <div class="video-container">
             <video controls autoplay loop muted class="video">
-              <source src="medias/cinet.mp4" type="video/mp4">
+              <source src="medias/cinet.mp4" type="video/mp4"data-aos="fade-up" >
               Votre navigateur ne supporte pas la vidéo.
             </video>
           </div>
@@ -135,7 +135,7 @@
 <hr class="final-trait">
 
 
-<section class="cinetpay">
+<section class="cinetpay"data-aos="fade-up >
   <div class="content-container">
     <div class="frais">
       <h2 class="hop">
@@ -209,7 +209,7 @@
      </div>
   
     <section class="pige">
-      <div class="pigier">
+      <div class="pigier" data-aos="fade-up">
         <div class="header-content"> <!-- Nouveau conteneur Flexbox -->
           <div class="badge">Pourquoi choisir CinetPay ?</div>
           <h1 class="h5">Réinventer le paiement <br><span class="orange">propulser</span> votre croissance. </h1> <p class="wesh">Augmentez vos ventes, réduisez vos coûts et gagnez du <br>temps avec une solution qui simplifie chaque paiement,<br>de la conversion client à la régularisation de vos comptes. </p>
@@ -301,7 +301,7 @@
       <p class="souche">Créez un compte maintenant et acceptez des paiements en Afrique de l'Ouest <br> et Centrale, ou contactez-nous pour une solution sur mesure.</p>
     </div>
    </section>
-  <div class="button-container">
+  <div class="button-container"data-aos="zoom-in" >
     <div class="button">
       <a href="#" class="btn-primary">Commencer maintenant</a>
     </div>
@@ -390,5 +390,9 @@
         </div>
     </div>
 </footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
